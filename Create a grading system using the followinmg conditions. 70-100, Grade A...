@@ -1,0 +1,16 @@
+unit1=int(input("Enter unit1:"))
+unit2=int(input("Enter unit2:"))
+unit3=int(input("Enter unit3:"))
+avg=(unit1+unit2+unit3)/3
+print("average:",avg)
+if(avg>=70 and avg<=100):
+    grade='A'
+elif(avg>=60 and avg<=69):
+    grade='B'
+elif(avg>=50 and avg<=59):
+    grade='C'
+elif(avg>=40 and avg<=49):
+    grade='D'
+else:
+    print("Fail")
+print("Grade:",grade)
