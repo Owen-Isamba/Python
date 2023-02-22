@@ -1,0 +1,9 @@
+time=int(input("Enter the time period:"))
+salary=int(input("Enter the salary"))
+if(time>10):
+    bonus=0.1*salary
+elif(time>=6 and time<=10):
+    bonus=0.8*salary
+else:
+    bonus=0.05*salary
+print("bonus:",bonus)
