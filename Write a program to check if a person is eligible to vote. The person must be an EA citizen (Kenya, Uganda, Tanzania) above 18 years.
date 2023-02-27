@@ -1,0 +1,7 @@
+age=int(input("Enter age:"))
+cit={"Kenya,Uganda,Tanzania"}
+Nationality=(input("Enter Nationality:")).lower()
+if age>=18 and Nationality=="cit":
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
