@@ -1,0 +1,6 @@
+age=int(input("Enter age:"))
+citizen=(input("Enter citizen:"))
+if age>=18 and citizen=="Kenyan":
+    print ("Eligible to vote")
+else:
+    print("Not eligible to vote")
