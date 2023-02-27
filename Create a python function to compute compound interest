@@ -1,0 +1,5 @@
+def compound_interest(p,r,t):
+    amount=p*(pow((1+r/100),t))
+    CI=amount-p
+    print("Compound Interest:",CI)
+compound_interest(10000,30,3)
