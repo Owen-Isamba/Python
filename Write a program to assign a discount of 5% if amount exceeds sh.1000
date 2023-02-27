@@ -1,0 +1,7 @@
+#input sale amount
+amt=int(input("Enter sale amount:"))
+if amt>1000:
+    disc=amt*0.05
+    print("The discount=",disc)
+else:
+    print("No discount")
