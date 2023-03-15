@@ -1,3 +1,4 @@
+#A company decided to give bonus to employees according to the following criteria: >10 yrs=10%, >=6 and <=10 yrs=8%, <6 years=5%. Ask user for their salary and years of service and print the net bonus amount.
 time=int(input("Enter the time period:"))
 salary=int(input("Enter the salary"))
 if(time>10):
