@@ -1,3 +1,4 @@
+#Make a variable, like winning number and assign any number to it. Ask user to guess a number. If user guessed correctly then you print "YOU WIN!!!!". If user didn't guess correctly then: if user guesed lower than actual number then print "too low" or "if user guessed higher than actual number then print "too high".
 import random
 number=random.randint(1,20)
 g=int(input("guess a number:"))
