@@ -1,3 +1,4 @@
+#Write a program to check if a person is eligible to vote. The person must be an EA citizen (Kenya, Uganda, Tanzania) above 18 years.
 age=int(input("Enter age:"))
 cit={"Kenya,Uganda,Tanzania"}
 Nationality=(input("Enter Nationality:")).lower()
