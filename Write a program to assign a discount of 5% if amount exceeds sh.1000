@@ -1,3 +1,4 @@
+#Write a program to assign a discount of 5% if amount exceeds sh.1000
 #input sale amount
 amt=int(input("Enter sale amount:"))
 if amt>1000:
