@@ -1,3 +1,4 @@
+#Write a program to check if a person is eligible to vote. The person must be a "Kenyan" citizen above 18 years.
 age=int(input("Enter age:"))
 citizen=(input("Enter citizen:"))
 if age>=18 and citizen=="Kenyan":
